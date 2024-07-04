@@ -6,7 +6,7 @@ public class Desafio06 {
 		
 		String array[] = {"a","vida", "é", "bela"};
 		for (int x = 0; x < array.length; x++) {
-			System.out.print(array[x] + " ");
+			System.out.print(array[x].toUpperCase() + " ");
 		}
 
 	}

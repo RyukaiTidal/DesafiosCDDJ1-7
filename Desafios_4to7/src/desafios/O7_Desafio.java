@@ -8,7 +8,7 @@ public class O7_Desafio {
 		
 		for (int x = 3; x > -1; x--) {
 			
-			System.out.print(x == 0? yoda[x] + ".":yoda[x] + " ");
+			System.out.print(x == 0? yoda[x].toUpperCase() + ".":yoda[x].toUpperCase() + " ");
 			
 		}
 		
